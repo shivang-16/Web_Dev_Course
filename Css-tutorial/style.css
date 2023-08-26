@@ -1,0 +1,46 @@
+*{
+    color: aqua;
+}
+
+h1{
+    color: red;
+ }
+
+p{
+  color: blue;
+}
+
+
+#hello{
+    color: violet;
+}
+
+.heading{
+    color: rgb(241, 148, 9);
+}
+
+/* priority order :  id-selector > class selector > tag selector */
+
+.para2{
+    color: red;
+}
+
+.para1{
+    color: blue;
+  }
+
+.container{
+    border: 2px solid red;
+}
+
+
+/* desecendent selector */
+.container p{
+    color: blueviolet;
+}
+
+/* child seclector */
+.container > p{
+    color: rgb(27, 216, 6);
+}
+
