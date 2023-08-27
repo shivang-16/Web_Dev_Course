@@ -8,7 +8,7 @@ body{
 }
 
 p{
-    font-size: 30px;
+    /* font-size: 30px; */
     /* font-weight: bold; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* text-decoration: line-through; */
@@ -42,5 +42,34 @@ p{
 ::-webkit-scrollbar-thumb{
    border-radius: 10px;
    background-color: gray;
+}
+
+html{
+    font-size: 40px;
+}
+/* body{
+    font-size: 40px;
+} */
+.box1{
+    font-size: 20px;
+    border: 2px solid red;
+    background-color: antiquewhite;
+
+    /* height: 10vh; */
+    /* width: 80vw; */
+    /* width: 800px; */
+    
+}
+.para{
+ padding: 10px 30px;
+
+
+ /* Relative propery  */
+
+ /* font-size: 100%; */
+ /* font-size: 2rem; */
+
+    /* font-size: 1vh; */
+
 }
 
