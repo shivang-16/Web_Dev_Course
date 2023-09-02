@@ -1,0 +1,44 @@
+body{
+    height: 2000px;
+}
+.big-container{
+    border: 2px solid blue;
+    width: 60vw;
+    position: relative;
+}
+.container{
+    border: 2px solid red;
+    width: 40%;
+    height: 50vh;
+    position: relative;
+}
+/* position: static relative absoulte sticky fixed*/
+.box{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.box1{
+    background-color: blue;
+    /* position: relative;
+    left: 20px; */
+    /* position: absolute;
+    left: 0; */
+
+    position: sticky;
+    top: 0;
+}
+
+.box2{
+    background-color: lightgreen;
+    /* position: relative;
+    top: 20px;
+    left: 30px; */
+    /* position: fixed;
+    top: 0; */
+}
+.box3{
+    background-color: rgb(122, 69, 3);
+}

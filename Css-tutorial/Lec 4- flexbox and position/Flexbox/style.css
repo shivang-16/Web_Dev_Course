@@ -1,0 +1,26 @@
+.container{
+    border: 2px solid red;
+    height: 60vh;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+    /* flex-wrap: wrap; */
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    background-color: rgb(109, 215, 215);    
+}
+.box2{
+    /* align-self: center; */
+    /* flex-shrink: 3; */
+    /* flex-grow: 4; */
+}
+.box3{
+   /* flex-grow: 3; */
+}
+.box4{
+   /* flex-grow: 2; */
+}
